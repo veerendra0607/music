@@ -42,7 +42,7 @@ class Song{
         description: 'flutter dev music',
         url: 'assets/songs/Kranti Theme Music.mp3',
         CoverUrl: 'assets/image/SV3.jpg',
-        artist: ''
+        artist: 'Raghu dixit'
     ),
     Song(title: 'Mr Bachelor',
         description: 'Mr Bachelor titel song',

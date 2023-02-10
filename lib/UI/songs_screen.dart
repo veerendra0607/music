@@ -107,6 +107,11 @@ class MusicPlayer extends StatelessWidget {
             color: Colors.white,
             fontWeight: FontWeight.bold,
           ),),
+          SizedBox(height: 5,),
+          Text(song.artist,style: Theme.of(context).textTheme.headlineSmall!.copyWith(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),),
           SizedBox(height: 30,),
           /// facing issue in seek bar
           // seekBarWidget(seekBarDataStream: _seekBarDataStream, audioPlayer: audioPlayer),
