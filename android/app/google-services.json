@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "22545259632",
+    "project_id": "music-app-21c28",
+    "storage_bucket": "music-app-21c28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22545259632:android:220bcd45ceb971775928b5",
+        "android_client_info": {
+          "package_name": "com.example.fl_music_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22545259632-qosukvk21hillvnt89u154joot3g3mqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_1f1Ht0kWINWczXloRBbQJ8MoEmQiNhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22545259632-qosukvk21hillvnt89u154joot3g3mqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

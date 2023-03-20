@@ -146,15 +146,6 @@ class PlayerButton extends StatelessWidget {
           builder: (context,index){
             return IconButton(onPressed: audioPlayer.hasPrevious ? audioPlayer.seekToPrevious :null,
                 iconSize: 45,
-                icon: Icon(Icons.refresh,color: Colors.white,));
-
-          },
-        ),
-        StreamBuilder<SequenceState?>(
-          stream: audioPlayer.sequenceStateStream,
-          builder: (context,index){
-            return IconButton(onPressed: audioPlayer.hasPrevious ? audioPlayer.seekToPrevious :null,
-                iconSize: 45,
                 icon: Icon(Icons.skip_previous,color: Colors.white,));
 
           },
@@ -209,16 +200,6 @@ class PlayerButton extends StatelessWidget {
                 ? audioPlayer.seekToNext :null,
                 iconSize: 45,
                 icon: Icon(Icons.skip_next,color: Colors.white,));
-
-          },
-        ),
-        StreamBuilder<SequenceState?>(
-          stream: audioPlayer.sequenceStateStream,
-          builder: (context,index){
-            return IconButton(onPressed: audioPlayer.hasNext
-                ? audioPlayer.seekToNext :null,
-                iconSize: 45,
-                icon: Icon(Icons.shuffle_sharp,color: Colors.white,));
 
           },
         ),
